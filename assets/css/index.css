@@ -6,7 +6,7 @@
     background-size:cover;box-shadow:inset -2px 0 16px rgba(0,0,0,.2);text-shadow: 0 0 5px #fff}
 .site-header p:last-child {margin-bottom:0}
 
-.site-logo {background-size:contain;border-radius:25px;display:inline-block;height:45px;margin-right:10px;position:relative;top:8px;width:45px}
+.site-logo {background-size:contain;border-radius:25px;display:inline-block;height:40px;margin-right:10px;position:relative;top:8px;width:40px}
 
 .blog-page {color:rgb(76,76,76);font-size:24px;margin-bottom:40px}
 .page-header {margin-bottom:10px}
@@ -31,7 +31,7 @@ body.night {background-color:rgb(38,38,38)}
 @media all and (max-width:954px) {
 	.site-cover {height:140px;width:100%;position:fixed}
 	.outer-wrapper {margin-left:0;position:absolute;top:140px;width:100%}
-    .site-header {height:60px}
+    .site-header {height:60px;color:#ddd;text-shadow: 0 0 5px #000}
     .site-header p{display:none}
     aside.night-toggle {top:150px}
 }
