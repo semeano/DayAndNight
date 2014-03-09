@@ -4,7 +4,7 @@
 ##Description
 
 Plain simple and responsive theme for [Ghost](https://github.com/tryghost/ghost/).<br>
-It has an option to set the text color to black or white, ideal for day and night reading.
+It has an option to set the text color to black or white, ideal for day or night reading.
 
 ##Demo
 
