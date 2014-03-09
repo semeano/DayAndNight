@@ -1,0 +1,37 @@
+.site-cover {background-color:rgb(83,83,83);color:rgb(203,203,203);height:100%;position:fixed;top:0;width:33%;z-index:2}
+.site-cover figcaption {bottom:20px;color:rgb(255,255,255);font-size:14px;position:absolute;right:20px}
+.outer-wrapper {margin-left:33%}
+
+.site-header {font-size:24px;padding:40px;color:#444;height:100%;background-position:center center;
+    background-size:cover;box-shadow:inset -2px 0 16px rgba(0,0,0,.2);text-shadow: 0 0 5px #fff}
+.site-header p:last-child {margin-bottom:0}
+
+.site-logo {background-size:contain;border-radius:25px;display:inline-block;height:45px;margin-right:10px;position:relative;top:8px;width:45px}
+
+.blog-page {color:rgb(76,76,76);font-size:24px;margin-bottom:40px}
+.page-header {margin-bottom:10px}
+.page-header h2,.page-content p {margin-bottom:20px}
+.page-content blockquote {border-left:2px solid rgb(239,239,239);padding-left:18px}
+.page-content img {display:block;margin:0 auto;max-width:100%}
+.page-content ol, .page-content ul {margin-left:40px}
+.page-content pre {background-color:rgb(239,239,239);border-radius:3px;margin-bottom:20px;padding:10px 6px;overflow:scroll}
+.page-content code {background-color:rgb(239,239,239);border-radius:3px;font-family:monospace;padding:0 4px;white-space:pre;
+    word-break:normal;word-wrap:normal}
+.page-content hr {background-color:rgb(239,239,239);border:none;height:1px}
+
+article.featured h2:before {background-color:rgb(255,136,0);border-radius:8px;content:"";display:inline-block;height:16px;
+    margin-right:10px;position:relative;width:16px}
+article.featured a:hover h2:before {background-color:rgb(45,166,222)}
+
+aside.night-toggle {background-color:rgb(38,38,38);border-radius:12px;cursor:pointer;height:24px;position:fixed;right:10px;top:10px;width:24px;margin:20px}
+body.night aside.night-toggle {background-color:rgb(239,239,239)}
+body.night .blog-post{color:rgb(203,203,203)}
+body.night {background-color:rgb(38,38,38)}
+
+@media all and (max-width:954px) {
+	.site-cover {height:140px;width:100%;position:fixed}
+	.outer-wrapper {margin-left:0;position:absolute;top:140px;width:100%}
+    .site-header {height:60px}
+    .site-header p{display:none}
+    aside.night-toggle {top:150px}
+}

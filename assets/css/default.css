@@ -1,0 +1,44 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+    color:inherit;margin:0;padding:0;border:none;font:inherit;font-size:100%}
+
+body {background-color:rgb(255,255,255);color:rgb(136,136,136);font-family:'Open Sans',sans-serif;
+    font-size:18px;font-weight:300;opacity: 0;transition: opacity 1s}
+
+.inner-wrapper {margin:0 auto;max-width:940px;padding:10px}
+
+h1,h2,h3 {font-size:40px}
+h1,p {margin-bottom:20px}
+em {font-style:italic}
+strong {font-weight:700}
+
+.site-main {padding:40px;padding-right:70px}
+
+.site-nav ul {font-size:18px;list-style-type:none;overflow:hidden}
+.site-nav li {border-right:1px solid rgb(239,239,239);float:left;margin-right:20px;padding-right:20px}
+.site-nav li a {text-decoration:none}
+.site-nav li:last-child {border-right:none;margin-right:0;padding-right:0}
+
+.blog-post {color:rgb(76,76,76);margin-bottom:40px}
+.post-header {margin-bottom:10px}
+.post-header a {text-decoration:none}
+.post-footer {color:rgb(136,136,136);font-size:14px;font-style:italic}
+.post-footer h4 {display:inline}
+.post-content {margin-bottom:10px}
+
+.post-header h1 {font-size:200%;margin-bottom:20px}
+.post-content h2 {margin-bottom:20px}
+.post-content p {margin-bottom:20px}
+.post-content blockquote {border-left:2px solid rgb(239,239,239);padding-left:18px}
+.post-content img {display:block;margin:0 auto;max-width:100%}
+.post-content ol, .post-content ul {margin-left:40px}
+.post-content pre {background-color:rgb(239,239,239);border-radius:3px;margin-bottom:20px;padding:10px 6px;
+    overflow:scroll}
+.post-content code {background-color:rgb(239,239,239);border-radius:3px;font-family:monospace;padding:0 4px;
+    white-space:pre;word-break:normal;word-wrap:normal}
+.post-content hr {background-color:rgb(239,239,239);border:none;height:1px}
+
+.blog-footer {color:rgb(136,136,136);font-size:14px;margin-top:40px;overflow:hidden;text-align:center}
+
+.pagination .home, nav.pagination .previous {float:left;font-size:1.5em}
+.pagination .next {float:right;font-size:1.5em}
+.pagination a {text-decoration:none}
