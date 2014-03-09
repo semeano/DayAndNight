@@ -4,10 +4,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body {background-color:rgb(255,255,255);color:rgb(136,136,136);font-family:'Open Sans',sans-serif;
     font-size:18px;font-weight:300;opacity: 0;transition: opacity 1s}
 
-.inner-wrapper {margin:0 auto;max-width:940px;padding:10px}
+.inner-wrapper {margin:0 auto;max-width:800px;padding:10px}
 
 h1,h2,h3 {font-size:40px}
-h1,p {margin-bottom:20px}
+h1,h2,h3,p,ul,ol {margin-bottom:20px}
 em {font-style:italic}
 strong {font-weight:700}
 
@@ -32,7 +32,7 @@ strong {font-weight:700}
 .post-content img {display:block;margin:0 auto;max-width:100%}
 .post-content ol, .post-content ul {margin-left:40px}
 .post-content pre {background-color:rgb(239,239,239);border-radius:3px;margin-bottom:20px;padding:10px 6px;
-    overflow:scroll}
+    overflow:auto}
 .post-content code {background-color:rgb(239,239,239);border-radius:3px;font-family:monospace;padding:0 4px;
     white-space:pre;word-break:normal;word-wrap:normal}
 .post-content hr {background-color:rgb(239,239,239);border:none;height:1px}
