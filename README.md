@@ -15,7 +15,7 @@ I'm using this theme on my [blog](http://blog.semeano.me), you can check it out.
 Copy it to your themes folder:
 
     cd /path/to/ghost/content/themes
-    sudo git clone https://github.com/semeano/CasperGray.git
+    sudo git clone https://github.com/semeano/DayAndNight.git
 
 Restart Ghost and you should be able to see the theme option on general settings.
 
