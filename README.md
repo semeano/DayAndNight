@@ -12,7 +12,7 @@ I'm using this theme on my [blog](http://blog.semeano.me), you can check it out.
 
 ##Installation
 
-Copy it to your themes folder:
+Clone this repo on your themes folder:
 
     cd /path/to/ghost/content/themes
     sudo git clone https://github.com/semeano/DayAndNight.git
