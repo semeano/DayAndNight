@@ -42,3 +42,4 @@ strong {font-weight:700}
 .pagination .home, nav.pagination .previous {float:left;font-size:1.5em}
 .pagination .next {float:right;font-size:1.5em}
 .pagination a {text-decoration:none}
+.site-main {display: block;}
