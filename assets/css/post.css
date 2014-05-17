@@ -1,3 +1,4 @@
+.blog {display: block;}
 .site-nav {margin-bottom:40px}
 aside.night-toggle{background-color:rgb(38,38,38);border-radius:12px;cursor:pointer;height:24px;
     position:absolute;margin-right:-12px; right:50%;top:30px;width:24px}
