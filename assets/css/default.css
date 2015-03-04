@@ -27,7 +27,7 @@ strong {font-weight:700}
 
 .post-header h1 {font-size:200%;margin-bottom:20px}
 .post-content h2 {margin-bottom:20px}
-.post-content p {margin-bottom:20px}
+.post-content p {margin-bottom:20px;line-height:1.5em}
 .post-content blockquote {border-left:2px solid rgb(239,239,239);padding-left:18px}
 .post-content img {display:block;margin:0 auto;max-width:100%}
 .post-content ol, .post-content ul {margin-left:40px}
